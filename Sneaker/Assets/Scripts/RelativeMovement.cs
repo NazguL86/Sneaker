@@ -28,6 +28,7 @@ public class RelativeMovement : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        return;/*
         Vector3 movement = Vector3.zero;
         float horInput = Input.GetAxis("Horizontal");
         float vertInput = Input.GetAxis("Vertical");
@@ -74,7 +75,7 @@ public class RelativeMovement : MonoBehaviour {
         movement.y = _vertSpeed;
 
         movement *= Time.deltaTime;
-        _charController.Move(movement);
+        _charController.Move(movement);*/
     }
 
     void OnControllerColliderHit(ControllerColliderHit hit)
